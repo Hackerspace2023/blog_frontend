@@ -20,7 +20,7 @@ To set up the project locally:
    npm install
 3. Start the Development Server:
    ```bash
-   npm start
+   npm run dev
 4. Open http://localhost:3000 to view the app in your browser.
 
 ## Usage
