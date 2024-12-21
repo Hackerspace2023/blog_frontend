@@ -7,10 +7,12 @@ function PostCards({data}) {
   return (
     <div
       id="body"
-      className="bg-white border flex flex-col justify-center items-center border-black rounded-2xl mx-5 md:w-[30vw] h-[300px]"
+      className="bg-white text-start border flex flex-col justify-center  border-black rounded-2xl mx-5 md:w-[30vw] h-[300px]"
     >
       <div id="title">
-        <h1 className="px-3 text-2xl font-bold">{data.title}</h1>
+        <h1 className="px-3 text-2xl font-bold">{
+          data.title? (data.title): (data.name)
+          }</h1>
       </div>
       <div id="description">
         <p className="px-3">{data.description}</p>

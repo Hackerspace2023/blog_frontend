@@ -25,7 +25,6 @@ function Carousal() {
     if (dataRef?.current?.articles) {
       setArticles(dataRef.current.articles);
       setLoaded(true);
-      console.log(dataRef.current.articles);
     }
   }, []);
 
